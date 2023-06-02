@@ -17,6 +17,12 @@ public class CalcController {
 		
 	}
 	
+	@GetMapping(value="/sub")
+	public String sub() {
+		return "25 - 36 = " + (25-36);
+		
+	}
+	
 	@GetMapping(value="/mul")
 	public String mul() {
 		return "25 * 36 = " + (25*36);
